@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #444;
+}
+a{
+    text-decoration: none;
+}
+.w-100{
+    width: 100%;
+}
+*{
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center;
+}
+.main{
+    margin-top:100px;
+}
+.mg-10{
+    margin-top: 10px;
+}
+.mg-30{
+    margin-top: 30px;
+  
+}
+
+    /* Home header */
+.ver{
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 1000;
+}
+.title-contacto div a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+.title-contacto div span {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color:red;
+}
+
+
+header{
+    background: red;
+}
+.nav li a{
+    font-size: 20px;
+    color:white;
+}
+.nav li:hover{
+    background:white;
+}
+.nav li a:hover{
+    color:red;   
+}
+.navbar{
+    margin-bottom: 10px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+}
+.title-logo{
+    background: #FB0800;
+    color:white;
+}
+.sub-title{
+    font-size: 20px;
+    display:inline-block;
+    padding: 0 10px;
+}
+.post-title{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.bg_white{
+    background: white;
+}
+/* main 1 - home*/
+.background{
+    width: 100%;
+    text-align: center;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border:1px solid red;
+}
+.oferta1{
+    background-image: url("../img/oferta-col3.jpg");
+}
+.oferta2{
+    background-image: url("../img/oferta-col2.jpg");
+}
+.oferta3{
+    background-image: url("../img/carrousel1.jpg");
+}
+.productos{
+    padding: 0;
+}
+.productos li{
+    padding: 10px;
+    list-style: none;
+    font-size: 14px; 
+    margin-right: 5px;
+    color: #333;
+}
+.productos li span {
+    display: inline-block;
+    width: 20px;
+    color: #333;
+}
+.productos li:hover{
+    color:red;
+    border: 2px solid red;
+}
+.productos li:hover ~  .fa {
+    color:red;
+}
+/** ofertas*/
+
+.oferta div div img{
+    height: 200px;
+}
+
+
+
+
+/* TABLA JAVA */
+table.parainfo tbody tr:nth-of-type(even) {
+    background-color: rgba(253, 234, 239, 0.8);
+}
+.fa{
+    color:blue; 
+}
+
+table.parainf td, table.parainf th {
+    border:3px solid blanchedalmond;
+}
+.ui-widget-header {
+    border: 1px solid #cd0a0a;;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+}
+thead{
+    background: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 80px;
+}
+.caja{
+    display: inline-block;
+    height: 30px;
+    font-size: 15px;
+}
+/* footer */
+footer{
+    background: red;
+    color:white;
+}
+
+/* responsive */
+
+.icon-bar{
+    background: white;
+}
+/*  title iniciar secion*/
+.title{
+    color:red;
+ 
+}
+.sub-cesion{
+    display: inline-block;
+    width: 100px;
+    font-size: 25px;
+}
+.title-bd{
+    text-align: center;
+}
+.parainfo1 label{
+    font-size: 20px;
+    color: red;
+}
